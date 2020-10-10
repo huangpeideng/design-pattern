@@ -6,7 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef0242c-c17a-4509-a283-17150f73c056" name="Default Changelist" comment="" />
+    <list default="true" id="3ef0242c-c17a-4509-a283-17150f73c056" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/observer/WeatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/behavior/FlyNoWay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/behavior/FlyNoWay.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +26,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1idQuPIfX38QHCyALHqJDi9bHJz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -44,7 +60,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WeatherStation">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dp.observer.MainTest" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dp.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dp.duck.MiniDuckSimulator" />
       <module name="design-pattern" />
@@ -58,11 +87,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dp.observer.WeatherStation" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dp.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherStation" />
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,42 +123,62 @@
       <option name="presentableId" value="Default" />
       <updated>1602235210819</updated>
       <workItem from="1602235213376" duration="2144000" />
-      <workItem from="1602238478599" duration="275000" />
+      <workItem from="1602238478599" duration="1074000" />
+      <workItem from="1602314169753" duration="5152000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="119" key="#Project_Structure" timestamp="1602235255702">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="361" y="119" key="#Project_Structure/0.0.1536.920@0.0.1536.920" timestamp="1602235255702" />
-    <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1602236157528">
+    <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1602323850849">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1536.920@0.0.1536.920" timestamp="1602236157528" />
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1602237359283">
+    <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1536.920@0.0.1536.920" timestamp="1602323850849" />
+    <state x="372" y="54" key="CommitChangelistDialog2" timestamp="1602346329934">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1602237359283" />
-    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1602237359283">
+    <state x="372" y="54" key="CommitChangelistDialog2/0.0.1536.920@0.0.1536.920" timestamp="1602346329934" />
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1602346274833">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1602237359283" />
-    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1602237359283">
+    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1602346274833" />
+    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1602346274833">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1602237359283" />
-    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1602237359283">
+    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1602346274833" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1602346274833">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1602237359283" />
+    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1602346274833" />
+    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1602346274833">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1602346274833" />
     <state x="249" y="35" key="SettingsEditor" timestamp="1602237265310">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="249" y="35" key="SettingsEditor/0.0.1536.920@0.0.1536.920" timestamp="1602237265310" />
+    <state x="361" y="193" key="Vcs.Push.Dialog.v2" timestamp="1602346281251">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="361" y="193" key="Vcs.Push.Dialog.v2/0.0.1536.920@0.0.1536.920" timestamp="1602346281251" />
     <state x="178" y="70" key="new project wizard" timestamp="1602237354106">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
