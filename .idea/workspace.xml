@@ -7,14 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef0242c-c17a-4509-a283-17150f73c056" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/dp/decorator/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dp/decorator/CondimentDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dp/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dp/decorator/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dp/decorator/Macho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dp/decorator/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/Factory/simplefactory/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/Factory/simplefactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/Factory/simplefactory/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/Factory/simplefactory/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/Factory/simplefactory/SimplePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dp/Factory/simplefactory/VegglePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/design_pattern_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/design_pattern_jar/design-pattern.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/design_pattern_jar/design-pattern.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/design_pattern_jar/design-pattern.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/FlyBehavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/MallardDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/MiniDuckSimulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/QuackBehavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/behavior/FlyNoWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/behavior/FlyWithWings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/behavior/Quack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/design-pattern/com/dp/duck/behavior/Squeak.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +67,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1idQuPIfX38QHCyALHqJDi9bHJz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -72,7 +85,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.StarbuzzCoffee">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dp.Factory.simplefactory.Client" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dp.Factory.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dp.observer.MainTest" />
       <module name="design-pattern" />
@@ -127,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.StarbuzzCoffee" />
         <item itemvalue="Application.WeatherStation" />
         <item itemvalue="Application.MainTest" />
@@ -151,7 +178,7 @@
       <workItem from="1602235213376" duration="2144000" />
       <workItem from="1602238478599" duration="1074000" />
       <workItem from="1602314169753" duration="7057000" />
-      <workItem from="1602407118332" duration="2254000" />
+      <workItem from="1602407118332" duration="5564000" />
     </task>
     <task id="LOCAL-00001" summary="add 观察者模式">
       <created>1602346342606</created>
@@ -167,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602347323190</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add 装饰者模式">
+      <created>1602414185278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602414185278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +223,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add 观察者模式" />
     <MESSAGE value="添加readme文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加readme文件" />
+    <MESSAGE value="add 装饰者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 装饰者模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="119" key="#Project_Structure" timestamp="1602235255702">
@@ -200,45 +235,45 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="574" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1536.920@0.0.1536.920" timestamp="1602413399609" />
-    <state x="372" y="54" key="CommitChangelistDialog2" timestamp="1602414166734">
+    <state x="372" y="54" key="CommitChangelistDialog2" timestamp="1602560118460">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="372" y="54" key="CommitChangelistDialog2/0.0.1536.920@0.0.1536.920" timestamp="1602414166734" />
-    <state x="147" y="76" key="DiffContextDialog" timestamp="1602414116125">
+    <state x="372" y="54" key="CommitChangelistDialog2/0.0.1536.920@0.0.1536.920" timestamp="1602560118460" />
+    <state x="147" y="76" width="1228" height="764" key="DiffContextDialog" timestamp="1602414297480">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="147" y="76" key="DiffContextDialog/0.0.1536.920@0.0.1536.920" timestamp="1602414116125" />
-    <state width="1493" height="245" key="GridCell.Tab.0.bottom" timestamp="1602414166750">
+    <state x="147" y="76" width="1228" height="764" key="DiffContextDialog/0.0.1536.920@0.0.1536.920" timestamp="1602414297480" />
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom" timestamp="1602560118474">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1602414166750" />
-    <state width="1493" height="245" key="GridCell.Tab.0.center" timestamp="1602414166750">
+    <state width="1493" height="271" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1602560118474" />
+    <state width="1493" height="271" key="GridCell.Tab.0.center" timestamp="1602560118474">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1602414166750" />
-    <state width="1493" height="245" key="GridCell.Tab.0.left" timestamp="1602414166750">
+    <state width="1493" height="271" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1602560118474" />
+    <state width="1493" height="271" key="GridCell.Tab.0.left" timestamp="1602560118473">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1602414166750" />
-    <state width="1493" height="245" key="GridCell.Tab.0.right" timestamp="1602414166750">
+    <state width="1493" height="271" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1602560118473" />
+    <state width="1493" height="271" key="GridCell.Tab.0.right" timestamp="1602560118474">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state width="1493" height="245" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1602414166750" />
-    <state x="249" y="35" key="SettingsEditor" timestamp="1602237265310">
+    <state width="1493" height="271" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1602560118474" />
+    <state x="249" y="35" key="SettingsEditor" timestamp="1602414211491">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="249" y="35" key="SettingsEditor/0.0.1536.920@0.0.1536.920" timestamp="1602237265310" />
-    <state x="361" y="193" key="Vcs.Push.Dialog.v2" timestamp="1602414031098">
+    <state x="249" y="35" key="SettingsEditor/0.0.1536.920@0.0.1536.920" timestamp="1602414211491" />
+    <state x="361" y="193" key="Vcs.Push.Dialog.v2" timestamp="1602414191449">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="361" y="193" key="Vcs.Push.Dialog.v2/0.0.1536.920@0.0.1536.920" timestamp="1602414031098" />
+    <state x="361" y="193" key="Vcs.Push.Dialog.v2/0.0.1536.920@0.0.1536.920" timestamp="1602414191449" />
     <state x="178" y="70" key="new project wizard" timestamp="1602237354106">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="178" y="70" key="new project wizard/0.0.1536.920@0.0.1536.920" timestamp="1602237354106" />
-    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1602412717262">
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1602558409459">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
-    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1602412717262" />
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1602558409459" />
   </component>
 </project>
